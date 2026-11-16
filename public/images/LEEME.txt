@@ -1,0 +1,2 @@
+Coloca aquí tus fotos propias (por ejemplo corte-dama.jpg) y en
+src/data/services.ts cambia la propiedad "image" del servicio por './images/corte-dama.jpg'.

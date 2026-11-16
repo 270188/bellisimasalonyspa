@@ -1,0 +1,10 @@
+{
+  "name": "Bellísima Salon & Spa",
+  "short_name": "Bellísima",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffdfa",
+  "theme_color": "#151312",
+  "lang": "es-PE",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

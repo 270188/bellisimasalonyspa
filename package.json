@@ -1,0 +1,19 @@
+{
+  "name": "bellisima-salon-spa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sitio web de Bellísima Salon & Spa — salón de belleza de alta gama",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^6.4.6",
+    "vitest": "^3.2.7"
+  }
+}
