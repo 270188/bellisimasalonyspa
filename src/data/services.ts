@@ -153,7 +153,7 @@ export const SERVICES: Service[] = [
     includes: ['Asesoría de color', 'Balayage', 'Matiz / gloss', 'Tratamiento Olaplex', 'Brushing'],
     price: 450,
     duration: 240,
-    image: unsplash('1562322140-8baeececf3df'),
+    image: unsplash('1505033575518-a36ea2ef75ae'),
     featured: true,
   },
   {
@@ -164,7 +164,7 @@ export const SERVICES: Service[] = [
     includes: ['Colorimetría', 'Aplicación completa', 'Sellador de color', 'Brushing'],
     price: 180,
     duration: 120,
-    image: unsplash('1600948836101-f9ffda59d250'),
+    image: unsplash('1529626455594-4ff0802cfb7e'),
   },
   {
     id: 'mechas',
@@ -174,7 +174,7 @@ export const SERVICES: Service[] = [
     includes: ['Mechas con papel', 'Matiz', 'Protector de hebra', 'Brushing'],
     price: 350,
     duration: 210,
-    image: unsplash('1521590832167-7bcbfaa6381f'),
+    image: unsplash('1629397685944-7073f5589754'),
   },
   {
     id: 'retoque-raiz',
@@ -217,7 +217,7 @@ export const SERVICES: Service[] = [
     includes: ['Baño de sales', 'Exfoliación', 'Mascarilla', 'Masaje', 'Esmaltado'],
     price: 70,
     duration: 70,
-    image: unsplash('1519014816548-bf5fe059798b'),
+    image: unsplash('1519415510236-718bdfcd89c8'),
   },
   {
     id: 'unas-acrilicas',
@@ -378,7 +378,7 @@ export const SERVICES: Service[] = [
     includes: ['Visagismo', 'Perfilado', 'Tinte opcional'],
     price: 40,
     duration: 30,
-    image: unsplash('1583001931096-959e9a1a6223'),
+    image: unsplash('1552693673-1bf958298935'),
   },
   {
     id: 'laminado-cejas',
@@ -388,7 +388,7 @@ export const SERVICES: Service[] = [
     includes: ['Laminado', 'Diseño', 'Tinte', 'Nutrición'],
     price: 90,
     duration: 50,
-    image: unsplash('1588776814546-1ffcf47267a5'),
+    image: unsplash('1531746020798-e6953c6e8e04'),
   },
   {
     id: 'lifting-pestanas',
@@ -398,7 +398,7 @@ export const SERVICES: Service[] = [
     includes: ['Lifting', 'Tinte', 'Keratina nutritiva'],
     price: 100,
     duration: 60,
-    image: unsplash('1595959183082-7b570b7e08e2'),
+    image: unsplash('1616683693504-3ea7e9ad6fec'),
     featured: true,
   },
   {
@@ -409,7 +409,7 @@ export const SERVICES: Service[] = [
     includes: ['Asesoría de efecto', 'Aplicación completa', 'Cepillo de cuidado'],
     price: 180,
     duration: 120,
-    image: unsplash('1597223557154-721c1cecc4b0'),
+    image: unsplash('1589710751893-f9a6770ad71b'),
   },
 
   // ───────────── DEPILACIÓN ─────────────
@@ -421,7 +421,7 @@ export const SERVICES: Service[] = [
     includes: ['Cera de baja temperatura', 'Loción calmante'],
     price: 30,
     duration: 20,
-    image: unsplash('1576426863848-c21f53c60b19'),
+    image: unsplash('1554151228-14d9def656e4'),
   },
   {
     id: 'depilacion-piernas',
@@ -431,7 +431,7 @@ export const SERVICES: Service[] = [
     includes: ['Cera premium', 'Aceite post-depilación'],
     price: 80,
     duration: 45,
-    image: unsplash('1552693673-1bf958298935'),
+    image: unsplash('1573461160327-b450ce3d8e7f'),
   },
   {
     id: 'depilacion-bikini',
@@ -441,7 +441,7 @@ export const SERVICES: Service[] = [
     includes: ['Cera de perlas', 'Calmante'],
     price: 70,
     duration: 30,
-    image: unsplash('1556228578-8c89e6adf883'),
+    image: unsplash('1516726817505-f5ed825624d8'),
   },
 
   // ───────────── NOVIAS & EVENTOS ─────────────
@@ -453,7 +453,7 @@ export const SERVICES: Service[] = [
     includes: ['Prueba de maquillaje y peinado', 'Maquillaje HD de novia', 'Peinado y colocación de velo', 'Manicure en gel', 'Retoques'],
     price: 950,
     duration: 240,
-    image: unsplash('1457972729786-0411a3b2b626'),
+    image: unsplash('1537633552985-df8429e8048b'),
     featured: true,
   },
   {
@@ -474,7 +474,7 @@ export const SERVICES: Service[] = [
     includes: ['Maquillaje social', 'Peinado de evento', 'Pestañas'],
     price: 230,
     duration: 120,
-    image: unsplash('1594463750939-ebb28c3f7f75'),
+    image: unsplash('1583939003579-730e3918a45a'),
   },
 ];
 
