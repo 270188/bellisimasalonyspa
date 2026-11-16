@@ -14,6 +14,22 @@ npm run preview   # vista previa de la versión compilada
 npm test          # pruebas unitarias
 ```
 
+## Desplegar en Vercel
+
+El proyecto ya incluye `vercel.json` (Vite, salida `dist`, cabeceras de seguridad y caché).
+
+**Opción A — desde GitHub (recomendada):**
+1. Entra a [vercel.com/new](https://vercel.com/new) e inicia sesión con GitHub.
+2. Importa el repositorio `bellisimasalonyspa` y selecciona la rama que quieras publicar.
+3. Vercel detecta todo automáticamente: pulsa **Deploy**. Cada `git push` vuelve a publicar el sitio.
+
+**Opción B — desde la terminal:**
+```bash
+npm i -g vercel
+vercel          # vista previa
+vercel --prod   # producción
+```
+
 ## Qué editar
 
 | Quiero cambiar… | Archivo |
