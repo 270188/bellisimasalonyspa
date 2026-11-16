@@ -1335,16 +1335,41 @@ textarea {
   gap: 0.75rem;
 }
 .social a {
-  padding: 0.55rem 1.1rem;
+  display: grid;
+  place-items: center;
+  width: 50px;
+  height: 50px;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  font-size: 0.85rem;
+  border-radius: 50%;
+  color: var(--ink);
   text-decoration: none;
-  transition: all 0.25s;
+  transition:
+    background 0.3s var(--ease),
+    color 0.3s var(--ease),
+    border-color 0.3s var(--ease),
+    transform 0.3s var(--ease);
 }
-.social a:hover {
-  border-color: var(--gold);
-  color: var(--gold-dark);
+.social a svg {
+  width: 22px;
+  height: 22px;
+}
+.social a:hover,
+.social a:focus-visible {
+  transform: translateY(-3px);
+  color: #fff;
+  border-color: transparent;
+}
+.social a[data-social='instagram']:hover,
+.social a[data-social='instagram']:focus-visible {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.social a[data-social='facebook']:hover,
+.social a[data-social='facebook']:focus-visible {
+  background: #1877f2;
+}
+.social a[data-social='tiktok']:hover,
+.social a[data-social='tiktok']:focus-visible {
+  background: #000;
 }
 .hours-card {
   padding: 2rem;
