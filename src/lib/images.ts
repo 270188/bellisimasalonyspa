@@ -53,6 +53,6 @@ export const installImageFallback = (root: Document = document): void => {
 
 /** Genera atributos srcset para imágenes de Unsplash. */
 export const srcset = (url: string): string => {
-  if (!url.includes('images.unsplash.com')) return '';
+  if (!/images\.(unsplash|pexels)\.com/.test(url)) return '';
   return [400, 800, 1200].map((w) => `${url.replace(/w=\d+/, `w=${w}`)} ${w}w`).join(', ');
 };

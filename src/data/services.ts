@@ -8,6 +8,10 @@ import type { Category, Service } from '../types';
 export const unsplash = (id: string, width = 800): string =>
   `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${width}&q=75`;
 
+/** URL optimizada de Pexels (fotos gratuitas). */
+export const pexels = (id: number, width = 800): string =>
+  `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=${width}`;
+
 export const CATEGORIES: Category[] = [
   {
     id: 'cabello',
@@ -79,7 +83,7 @@ export const SERVICES: Service[] = [
     includes: ['Diagnóstico capilar', 'Lavado con masaje', 'Corte de autor', 'Secado y styling'],
     price: 80,
     duration: 60,
-    image: unsplash('1560869713-7d0a29430803'),
+    image: pexels(3356170),
     featured: true,
   },
   {
@@ -110,7 +114,7 @@ export const SERVICES: Service[] = [
     includes: ['Lavado clarificante', 'Aplicación de keratina', 'Sellado con plancha', 'Kit de mantenimiento'],
     price: 280,
     duration: 180,
-    image: unsplash('1519699047748-de8e457a634e'),
+    image: pexels(3738359),
     featured: true,
   },
   {
@@ -280,7 +284,7 @@ export const SERVICES: Service[] = [
     includes: ['Limpieza', 'Radiofrecuencia', 'Mascarilla tensora', 'Masaje facial'],
     price: 260,
     duration: 75,
-    image: unsplash('1598440947619-2c35fc9aa908'),
+    image: pexels(5069612),
   },
 
   // ───────────── SPA & MASAJES ─────────────
